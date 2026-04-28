@@ -16,41 +16,48 @@
     "tag": "Čo Robíme",
     "title": "Služby, Ktoré Poháňajú Rast",
     "desc": "Od úžasných webov po automatizáciu s AI a strategický marketing — dodávame digitálne riešenia, ktoré transformujú váš biznis.",
-    "landing": {
-      "title": "Landing Pages",
-      "desc": "Krásne, konverzne optimalizované stránky navrhnuté tak, aby premieňali návštevníkov na zákazníkov."
+    "s1": {
+      "badge": "Najžiadanejšie",
+      "title": "Nepremeškajte Zákazníka",
+      "desc": "Kým vy spíte, ono to rezervuje. Kým ste na stretnutí, ono to odpovedá. AI, ktorá pracuje na vašej recepcii — 24/7, s nulovým platom.",
+      "f1": "AI Recepcionistka 24/7",
+      "f2": "Spracovanie rezervácií a dopytov",
+      "f3": "Viacjazyčná podpora"
     },
-    "ai": {
-      "title": "AI Recepcionistka",
-      "desc": "24/7 automatizovaná AI recepcionistka, ktorá zvláda hovory, rezervácie a otázky zákazníkov."
+    "s2": {
+      "title": "Digitálna Prítomnosť",
+      "desc": "Od prvého dojmu až po trvalý výkon. Všetko, čo vaša značka potrebuje na to, aby existovala, konvertovala a rástla online.",
+      "f1": "Vývoj webových stránok",
+      "f2": "Landing pages",
+      "f3": "Rýchlosť & SEO optimalizácia"
     },
-    "social": {
-      "title": "Sociálne Siete",
-      "desc": "Strategická správa sociálnych sietí pre rast vašej značky a zapojenie publika."
+    "s3": {
+      "title": "Motor Rastu",
+      "desc": "Platená aj organická reklama pracujúca spoločne. Budujeme kampane, ktoré priťahujú správnych ľudí a menia ich na zákazníkov.",
+      "f1": "PPC — Google, Meta, LinkedIn",
+      "f2": "Digitálna marketingová stratégia",
+      "f3": "Lead generation & ROI sledovanie"
     },
-    "web": {
-      "title": "Vývoj Webov",
-      "desc": "Plne vlastné webové stránky od konceptu po spustenie s najnovšími technológiami."
+    "s4": {
+      "title": "Systém Značky",
+      "desc": "Značka, ktorú si ľudia zapamätajú. Vytvárame vizuálnu identitu a hlas, vďaka ktorým vyniknete na akomkoľvek trhu.",
+      "f1": "Logo & vizuálna identita",
+      "f2": "Farebná paleta & typografia",
+      "f3": "Manuál značky (Brand guidelines)"
     },
-    "optimization": {
-      "title": "Optimalizácia",
-      "desc": "Zrýchlenie, SEO a výkonnostné vylepšenia pre maximálnu online viditeľnosť."
+    "s5": {
+      "title": "Sociálne Siete & Obsah",
+      "desc": "Konzistentný, strategický obsah, ktorý buduje publikum a udržuje vašu značku relevantnú na každej platforme.",
+      "f1": "Správa sociálnych sietí",
+      "f2": "Obsahová stratégia & kalendár",
+      "f3": "Budovanie komunity"
     },
-    "support": {
-      "title": "Údržba & Podpora",
-      "desc": "Nepretržitá starostlivosť a podpora, aby vaša digitálna prítomnosť fungovala bezchybne."
-    },
-    "marketing": {
-      "title": "Digitálny Marketing",
-      "desc": "Marketingové stratégie založené na dátach pre zvýšenie vášho dosahu, získavanie leadov a celkové ROI."
-    },
-    "branding": {
-      "title": "Identita Značky",
-      "desc": "Nezabudnuteľná identita značky vrátane dizajnu loga, farebných paliet a vizuálnych manuálov."
-    },
-    "ads": {
-      "title": "PPC & Reklama",
-      "desc": "Cielené reklamné kampane na Google, Meta a LinkedIn, ktoré dostanú vašu správu k správnemu publiku."
+    "s6": {
+      "title": "Vždy Aktívni",
+      "desc": "Po spustení nezmizneme. Neustála údržba, monitorovanie a podpora — aby vás vaše digitálne aktíva nikdy nesklamali.",
+      "f1": "Údržba & aktualizácie",
+      "f2": "Monitorovanie výkonu",
+      "f3": "Prioritná podpora"
     }
   },
   "testimonials": {

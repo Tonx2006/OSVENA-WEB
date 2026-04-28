@@ -16,41 +16,48 @@
     "tag": "What We Do",
     "title": "Services That Drive Growth",
     "desc": "From stunning websites to AI-powered automation and high-impact marketing, we deliver digital solutions that transform your business.",
-    "landing": {
-      "title": "Landing Pages",
-      "desc": "Beautiful, conversion-optimized landing pages designed to turn visitors into customers."
+    "s1": {
+      "badge": "Most wanted",
+      "title": "Never Miss a Customer",
+      "desc": "While you sleep, it books. While you're in meetings, it answers. An AI that works your front desk — 24/7, zero salary.",
+      "f1": "AI Receptionist 24/7",
+      "f2": "Booking & inquiry handling",
+      "f3": "Multi-language support"
     },
-    "ai": {
-      "title": "AI Receptionist",
-      "desc": "24/7 automated AI receptionist that handles calls, bookings, and customer inquiries."
+    "s2": {
+      "title": "Digital Presence",
+      "desc": "From first impression to lasting performance. Everything your brand needs to exist, convert, and grow online.",
+      "f1": "Web development",
+      "f2": "Landing pages",
+      "f3": "Speed & SEO optimization"
     },
-    "social": {
-      "title": "Social Media",
-      "desc": "Strategic social media management to grow your brand presence and engagement."
+    "s3": {
+      "title": "Growth Engine",
+      "desc": "Paid and organic working together. We build campaigns that attract the right people and turn them into customers.",
+      "f1": "PPC — Google, Meta, LinkedIn",
+      "f2": "Digital marketing strategy",
+      "f3": "Lead generation & ROI tracking"
     },
-    "web": {
-      "title": "Web Development",
-      "desc": "Full custom websites built from concept to launch with cutting-edge technology."
+    "s4": {
+      "title": "Brand System",
+      "desc": "A brand that people remember. We craft the visual identity and voice that makes you stand out in any market.",
+      "f1": "Logo & visual identity",
+      "f2": "Color palette & typography",
+      "f3": "Brand guidelines"
     },
-    "optimization": {
-      "title": "Optimization",
-      "desc": "Speed, SEO, and performance upgrades to maximize your online visibility."
+    "s5": {
+      "title": "Social & Content",
+      "desc": "Consistent, strategic content that builds an audience and keeps your brand relevant across every platform.",
+      "f1": "Social media management",
+      "f2": "Content strategy & calendar",
+      "f3": "Community engagement"
     },
-    "support": {
-      "title": "Maintenance & Support",
-      "desc": "Ongoing care and support to keep your digital presence running flawlessly."
-    },
-    "marketing": {
-      "title": "Digital Marketing",
-      "desc": "Data-driven marketing strategies to increase your reach, lead generation, and overall ROI."
-    },
-    "branding": {
-      "title": "Brand Identity",
-      "desc": "Memorable brand identities including logo design, color palettes, and visual guidelines."
-    },
-    "ads": {
-      "title": "PPC & Advertising",
-      "desc": "Targeted ad campaigns on Google, Meta, and LinkedIn to get your message to the right audience."
+    "s6": {
+      "title": "Always On",
+      "desc": "We don't disappear after launch. Ongoing maintenance, monitoring, and support — so your digital assets never let you down.",
+      "f1": "Maintenance & updates",
+      "f2": "Performance monitoring",
+      "f3": "Priority support"
     }
   },
   "testimonials": {
