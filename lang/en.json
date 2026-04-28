@@ -1,0 +1,216 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "whyUs": "Why Us",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "slogan": "We Build. You Grow.",
+    "cta1": "Our Services",
+    "cta2": "Get In Touch"
+  },
+  "services": {
+    "tag": "What We Do",
+    "title": "Services That Drive Growth",
+    "desc": "From stunning websites to AI-powered automation and high-impact marketing, we deliver digital solutions that transform your business.",
+    "landing": {
+      "title": "Landing Pages",
+      "desc": "Beautiful, conversion-optimized landing pages designed to turn visitors into customers."
+    },
+    "ai": {
+      "title": "AI Receptionist",
+      "desc": "24/7 automated AI receptionist that handles calls, bookings, and customer inquiries."
+    },
+    "social": {
+      "title": "Social Media",
+      "desc": "Strategic social media management to grow your brand presence and engagement."
+    },
+    "web": {
+      "title": "Web Development",
+      "desc": "Full custom websites built from concept to launch with cutting-edge technology."
+    },
+    "optimization": {
+      "title": "Optimization",
+      "desc": "Speed, SEO, and performance upgrades to maximize your online visibility."
+    },
+    "support": {
+      "title": "Maintenance & Support",
+      "desc": "Ongoing care and support to keep your digital presence running flawlessly."
+    },
+    "marketing": {
+      "title": "Digital Marketing",
+      "desc": "Data-driven marketing strategies to increase your reach, lead generation, and overall ROI."
+    },
+    "branding": {
+      "title": "Brand Identity",
+      "desc": "Memorable brand identities including logo design, color palettes, and visual guidelines."
+    },
+    "ads": {
+      "title": "PPC & Advertising",
+      "desc": "Targeted ad campaigns on Google, Meta, and LinkedIn to get your message to the right audience."
+    }
+  },
+  "testimonials": {
+    "tag": "Client Success",
+    "title": "What People Say",
+    "items": [
+      {
+        "name": "Adam Kováč",
+        "username": "@adam_k",
+        "body": "OSVENA created a website that doubled our conversion rate in a month!",
+        "country": "🇸🇰 Slovakia"
+      },
+      {
+        "name": "Lucia Veselá",
+        "username": "@luci_v",
+        "body": "The AI Receptionist is amazing. It handles all our bookings perfectly.",
+        "country": "🇨🇿 Czechia"
+      },
+      {
+        "name": "Mateo Rossi",
+        "username": "@mat",
+        "body": "Animations are buttery smooth! Premium feel all around.",
+        "country": "🇮🇹 Italy"
+      },
+      {
+        "name": "Maya Patel",
+        "username": "@maya",
+        "body": "Highly professional team. They delivered exactly what we needed.",
+        "country": "🇬🇧 UK"
+      },
+      {
+        "name": "Noah Smith",
+        "username": "@noah",
+        "body": "Best digital agency experience I have ever had. Seamless process!",
+        "country": "🇺🇸 USA"
+      },
+      {
+        "name": "Lucas Stone",
+        "username": "@luc",
+        "body": "Modern, fast, and reliable. OSVENA is our go-to partner.",
+        "country": "🇫🇷 France"
+      },
+      {
+        "name": "Haruto Sato",
+        "username": "@haru",
+        "body": "Impressive performance on mobile! A must-have for any business.",
+        "country": "🇯🇵 Japan"
+      },
+      {
+        "name": "Emma Lee",
+        "username": "@emma",
+        "body": "Our brand identity looks stunning thanks to OSVENA.",
+        "country": "🇨🇦 Canada"
+      },
+      {
+        "name": "Carlos Ray",
+        "username": "@carl",
+        "body": "Great for scaling your business. Very transparent and clear quotes.",
+        "country": "🇪🇸 Spain"
+      }
+    ]
+  },
+  "aiSection": {
+    "tag": "AI-Powered",
+    "title": "Meet Your AI Receptionist",
+    "desc": "Never miss a customer again. Our AI receptionist handles inquiries, books appointments, and provides instant responses — 24 hours a day, 7 days a week.",
+    "f1": "24/7 Availability",
+    "f2": "Instant Responses",
+    "f3": "Appointment Booking",
+    "f4": "Multi-Language Support",
+    "f5": "Cost-Effective Solution",
+    "cta": "Get Your AI Receptionist",
+    "chat1": "Hi! Welcome to your business. How can I help you today?",
+    "chat2": "I'd like to book an appointment for tomorrow.",
+    "chat3": "Of course! I have availability at 10:00 AM and 2:00 PM. Which works better for you?",
+    "chat4": "2:00 PM please.",
+    "chat5": "You're all set for tomorrow at 2:00 PM. I'll send a confirmation to your email."
+  },
+  "whyUs": {
+    "tag": "The Difference",
+    "title": "Why Choose OSVENA?",
+    "desc": "We don't just build websites. We build growth engines.",
+    "feature": "Feature",
+    "typical": "Typical Agency",
+    "osvena": "OSVENA",
+    "r1": "Response Time",
+    "r1t": "24-48 hours",
+    "r1o": "Under 2 hours",
+    "r2": "Design Approach",
+    "r2t": "Template-based",
+    "r2o": "100% Custom",
+    "r3": "AI Integration",
+    "r4": "Ongoing Support",
+    "r5": "Transparent Pricing",
+    "r6": "Results Tracking",
+    "available": "Available",
+    "notAvailable": "Not available",
+    "included": "Included",
+    "extraCost": "Extra cost",
+    "clearQuotes": "Clear quotes",
+    "hiddenFees": "Hidden fees",
+    "realTime": "Real-time",
+    "basicReports": "Basic reports"
+  },
+  "about": {
+    "tag": "Our Story",
+    "title": "Building Digital Success Stories",
+    "p1": "OSVENA is a forward-thinking digital agency with years of experience helping businesses grow their online presence. We combine cutting-edge technology, creative design, and data-driven marketing to deliver results that matter.",
+    "p2": "From local startups to established brands, we've helped dozens of businesses transform their digital footprint. Our approach is simple: understand your vision, craft the perfect solution, and deliver excellence.",
+    "cta": "Start Your Project",
+    "stat1": "50+",
+    "stat1l": "Projects",
+    "stat2": "40+",
+    "stat2l": "Clients",
+    "stat3": "5+",
+    "stat3l": "Years",
+    "stat4": "99%",
+    "stat4l": "Satisfaction"
+  },
+  "process": {
+    "tag": "Our Approach",
+    "title": "How We Work",
+    "desc": "A streamlined process designed to bring your vision to life — efficiently and beautifully.",
+    "s1t": "Discovery",
+    "s1d": "We learn about your business, goals, and vision to build the perfect strategy.",
+    "s2t": "Design",
+    "s2d": "We craft stunning visuals and user experiences tailored to your brand.",
+    "s3t": "Develop",
+    "s3d": "We bring designs to life with clean, performant, and scalable code.",
+    "s4t": "Deliver",
+    "s4d": "We launch your project and provide ongoing support to ensure success."
+  },
+  "contact": {
+    "tag": "Let's Talk",
+    "title": "Ready to Grow Your Business?",
+    "desc": "Tell us about your project and we'll get back to you within 24 hours with a free consultation.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "locationVal": "Slovakia, EU",
+    "hours": "Working Hours",
+    "hoursVal": "Mon - Fri, 9:00 - 18:00",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "company": "Company",
+    "companyPh": "Optional",
+    "emailLabel": "Email Address",
+    "phoneLbl": "Phone Number",
+    "message": "Message",
+    "messagePh": "Tell us about your project...",
+    "submit": "Send Message",
+    "required": "*",
+    "successTitle": "Thank You!",
+    "successMsg": "We've received your message and will contact you shortly.",
+    "errorRequired": "This field is required",
+    "errorEmail": "Please enter a valid email",
+    "errorPhone": "Please enter a valid phone number"
+  },
+  "footer": {
+    "rights": "© 2026 OSVENA. All rights reserved.",
+    "tagline": "We Build. You Grow."
+  }
+}

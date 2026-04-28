@@ -1,0 +1,216 @@
+{
+  "nav": {
+    "home": "Domov",
+    "services": "Služby",
+    "whyUs": "Prečo My",
+    "about": "O Nás",
+    "contact": "Kontakt",
+    "getStarted": "Začnime"
+  },
+  "hero": {
+    "slogan": "Tvoríme. Rastieme.",
+    "cta1": "Naše Služby",
+    "cta2": "Kontaktujte Nás"
+  },
+  "services": {
+    "tag": "Čo Robíme",
+    "title": "Služby, Ktoré Poháňajú Rast",
+    "desc": "Od úžasných webov po automatizáciu s AI a strategický marketing — dodávame digitálne riešenia, ktoré transformujú váš biznis.",
+    "landing": {
+      "title": "Landing Pages",
+      "desc": "Krásne, konverzne optimalizované stránky navrhnuté tak, aby premieňali návštevníkov na zákazníkov."
+    },
+    "ai": {
+      "title": "AI Recepcionistka",
+      "desc": "24/7 automatizovaná AI recepcionistka, ktorá zvláda hovory, rezervácie a otázky zákazníkov."
+    },
+    "social": {
+      "title": "Sociálne Siete",
+      "desc": "Strategická správa sociálnych sietí pre rast vašej značky a zapojenie publika."
+    },
+    "web": {
+      "title": "Vývoj Webov",
+      "desc": "Plne vlastné webové stránky od konceptu po spustenie s najnovšími technológiami."
+    },
+    "optimization": {
+      "title": "Optimalizácia",
+      "desc": "Zrýchlenie, SEO a výkonnostné vylepšenia pre maximálnu online viditeľnosť."
+    },
+    "support": {
+      "title": "Údržba & Podpora",
+      "desc": "Nepretržitá starostlivosť a podpora, aby vaša digitálna prítomnosť fungovala bezchybne."
+    },
+    "marketing": {
+      "title": "Digitálny Marketing",
+      "desc": "Marketingové stratégie založené na dátach pre zvýšenie vášho dosahu, získavanie leadov a celkové ROI."
+    },
+    "branding": {
+      "title": "Identita Značky",
+      "desc": "Nezabudnuteľná identita značky vrátane dizajnu loga, farebných paliet a vizuálnych manuálov."
+    },
+    "ads": {
+      "title": "PPC & Reklama",
+      "desc": "Cielené reklamné kampane na Google, Meta a LinkedIn, ktoré dostanú vašu správu k správnemu publiku."
+    }
+  },
+  "testimonials": {
+    "tag": "Úspechy Klientov",
+    "title": "Čo Hovoríte Vy",
+    "items": [
+      {
+        "name": "Adam Kováč",
+        "username": "@adam_k",
+        "body": "OSVENA vytvorila web, ktorý zdvojnásobil našu mieru konverzie za mesiac!",
+        "country": "🇸🇰 Slovensko"
+      },
+      {
+        "name": "Lucia Veselá",
+        "username": "@luci_v",
+        "body": "AI Recepcionistka je úžasná. Dokonale zvláda všetky naše rezervácie.",
+        "country": "🇨🇿 Česko"
+      },
+      {
+        "name": "Mateo Rossi",
+        "username": "@mat",
+        "body": "Animácie sú neskutočne plynulé! Celkovo prémiový pocit.",
+        "country": "🇮🇹 Taliansko"
+      },
+      {
+        "name": "Maya Patel",
+        "username": "@maya",
+        "body": "Vysoko profesionálny tím. Dodali presne to, čo sme potrebovali.",
+        "country": "🇬🇧 UK"
+      },
+      {
+        "name": "Noah Smith",
+        "username": "@noah",
+        "body": "Najlepšia skúsenosť s digitálnou agentúrou, akú som kedy mal. Bezproblémový proces!",
+        "country": "🇺🇸 USA"
+      },
+      {
+        "name": "Lucas Stone",
+        "username": "@luc",
+        "body": "Moderné, rýchle a spoľahlivé. OSVENA je náš hlavný partner.",
+        "country": "🇫🇷 Francúzsko"
+      },
+      {
+        "name": "Haruto Sato",
+        "username": "@haru",
+        "body": "Pôsobivý výkon na mobiloch! Povinnosť pre každú firmu.",
+        "country": "🇯🇵 Japonsko"
+      },
+      {
+        "name": "Emma Lee",
+        "username": "@emma",
+        "body": "Naša identita značky vyzerá vďaka OSVENA úžasne.",
+        "country": "🇨🇦 Kanada"
+      },
+      {
+        "name": "Carlos Ray",
+        "username": "@carl",
+        "body": "Skvelé pre škálovanie biznisu. Veľmi transparentné a jasné ponuky.",
+        "country": "🇪🇸 Španielsko"
+      }
+    ]
+  },
+  "aiSection": {
+    "tag": "Poháňané AI",
+    "title": "Spoznajte Vašu AI Recepcionistku",
+    "desc": "Už nikdy neprídete o zákazníka. Naša AI recepcionistka zvláda otázky, rezervuje termíny a poskytuje okamžité odpovede — 24 hodín denne, 7 dní v týždni.",
+    "f1": "Dostupnosť 24/7",
+    "f2": "Okamžité Odpovede",
+    "f3": "Rezervácia Termínov",
+    "f4": "Viacjazyčná Podpora",
+    "f5": "Nákladovo Efektívne",
+    "cta": "Získajte AI Recepcionistku",
+    "chat1": "Dobrý deň! Vitajte. Ako vám môžem pomôcť?",
+    "chat2": "Chcel by som si dohodnúť stretnutie na zajtra.",
+    "chat3": "Samozrejme! Mám voľné termíny o 10:00 a o 14:00. Ktorý vám vyhovuje?",
+    "chat4": "O 14:00 prosím.",
+    "chat5": "Ste zaznamenaný na zajtra o 14:00. Potvrdenie pošlem na váš email."
+  },
+  "whyUs": {
+    "tag": "Rozdiel",
+    "title": "Prečo Si Vybrať OSVENA?",
+    "desc": "Nestaviame len webové stránky. Staviame motory rastu.",
+    "feature": "Vlastnosť",
+    "typical": "Bežná Agentúra",
+    "osvena": "OSVENA",
+    "r1": "Čas Odozvy",
+    "r1t": "24-48 hodín",
+    "r1o": "Do 2 hodín",
+    "r2": "Prístup k Dizajnu",
+    "r2t": "Šablónový",
+    "r2o": "100% Na Mieru",
+    "r3": "AI Integrácia",
+    "r4": "Priebežná Podpora",
+    "r5": "Transparentné Ceny",
+    "r6": "Sledovanie Výsledkov",
+    "available": "K dispozícii",
+    "notAvailable": "Nedostupné",
+    "included": "Zahrnuté",
+    "extraCost": "Za príplatok",
+    "clearQuotes": "Jasné ponuky",
+    "hiddenFees": "Skryté poplatky",
+    "realTime": "V reálnom čase",
+    "basicReports": "Základné reporty"
+  },
+  "about": {
+    "tag": "Náš Príbeh",
+    "title": "Tvoríme Digitálne Úspechy",
+    "p1": "OSVENA je progresívna digitálna agentúra s dlhoročnými skúsenosťami v pomáhaní firmám rásť v online priestore. Kombinujeme najmodernejšie technológie, kreatívny dizajn a marketing postavený na dátach pre dosiahnutie výsledkov, na ktorých záleží.",
+    "p2": "Od lokálnych startupov po etablované značky — pomohli sme desiatkom firiem transformovať ich digitálnu prítomnosť. Náš prístup je jednoduchý: pochopiť vašu víziu, vytvoriť dokonalé riešenie a dodať excelentnosť.",
+    "cta": "Začnite Váš Projekt",
+    "stat1": "50+",
+    "stat1l": "Projektov",
+    "stat2": "40+",
+    "stat2l": "Klientov",
+    "stat3": "5+",
+    "stat3l": "Rokov",
+    "stat4": "99%",
+    "stat4l": "Spokojnosť"
+  },
+  "process": {
+    "tag": "Náš Prístup",
+    "title": "Ako Pracujeme",
+    "desc": "Efektívny proces navrhnutý tak, aby vašu víziu premenil na realitu — rýchlo a krásne.",
+    "s1t": "Analýza",
+    "s1d": "Spoznáme váš biznis, ciele a víziu pre vytvorenie dokonalej stratégie.",
+    "s2t": "Dizajn",
+    "s2d": "Vytvoríme ohromujúce vizuály a používateľské zážitky prispôsobené vašej značke.",
+    "s3t": "Vývoj",
+    "s3d": "Dizajny oživíme čistým, výkonným a škálovateľným kódom.",
+    "s4t": "Dodanie",
+    "s4d": "Spustíme váš projekt a poskytneme priebežnú podporu pre zaistenie úspechu."
+  },
+  "contact": {
+    "tag": "Porozprávajme Sa",
+    "title": "Pripravení Rásť S Vašim Biznisom?",
+    "desc": "Povedzte nám o vašom projekte a ozveme sa vám do 24 hodín s bezplatnou konzultáciou.",
+    "email": "Email",
+    "phone": "Telefón",
+    "location": "Lokalita",
+    "locationVal": "Slovensko, EÚ",
+    "hours": "Pracovné Hodiny",
+    "hoursVal": "Pon - Pia, 9:00 - 18:00",
+    "firstName": "Meno",
+    "lastName": "Priezvisko",
+    "company": "Spoločnosť",
+    "companyPh": "Nepovinné",
+    "emailLabel": "Emailová Adresa",
+    "phoneLbl": "Telefónne Číslo",
+    "message": "Správa",
+    "messagePh": "Povedzte nám o vašom projekte...",
+    "submit": "Odoslať Správu",
+    "required": "*",
+    "successTitle": "Ďakujeme!",
+    "successMsg": "Prijali sme vašu správu a budeme vás kontaktovať v blízkej dobe.",
+    "errorRequired": "Toto pole je povinné",
+    "errorEmail": "Zadajte platný email",
+    "errorPhone": "Zadajte platné telefónne číslo"
+  },
+  "footer": {
+    "rights": "© 2026 OSVENA. Všetky práva vyhradené.",
+    "tagline": "Tvoríme. Rastieme."
+  }
+}
