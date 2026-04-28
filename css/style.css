@@ -309,15 +309,14 @@ input,textarea,select{font:inherit;color:inherit;background:none;border:none;out
    TESTIMONIALS (3D MARQUEE)
    ============================================ */
 .t-perspective {
-  perspective: 1000px; /* Increased perspective for a smoother 3D look */
-  margin: 4rem auto;
+  perspective: 500px;
+  margin: 3rem auto 0;
   max-width: 800px;
-  height: 480px;
+  height: 440px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow: hidden; /* Prevent 3D cards from leaking out */
 }
 .t-container {
   display: flex;
@@ -422,10 +421,17 @@ input,textarea,select{font:inherit;color:inherit;background:none;border:none;out
   pointer-events: none;
   z-index: 10;
 }
-.t-top { inset-inline: 0; top: -50%; height: 60%; background: linear-gradient(to bottom, var(--bg-primary) 20%, transparent); }
-.t-bottom { inset-inline: 0; bottom: -50%; height: 60%; background: linear-gradient(to top, var(--bg-primary) 20%, transparent); }
-.t-left { inset-block: 0; left: 0; width: 15%; background: linear-gradient(to right, var(--bg-primary), transparent); }
-.t-right { inset-block: 0; right: 0; width: 15%; background: linear-gradient(to left, var(--bg-primary), transparent); }
+.t-top { top: 0; left: 0; right: 0; height: 120px; background: linear-gradient(to bottom, var(--bg-primary), transparent); }
+.t-bottom { bottom: 0; left: 0; right: 0; height: 120px; background: linear-gradient(to top, var(--bg-primary), transparent); }
+.t-left { top: 0; bottom: 0; left: 0; width: 120px; background: linear-gradient(to right, var(--bg-primary), transparent); }
+.t-right { top: 0; bottom: 0; right: 0; width: 120px; background: linear-gradient(to left, var(--bg-primary), transparent); }
+
+/* Ensure section has enough space for 3D effect and doesn't overlap footer */
+#testimonials {
+  padding-bottom: 150px;
+  overflow: hidden;
+  position: relative;
+}
 
 /* ============================================
    ABOUT
