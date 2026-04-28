@@ -421,10 +421,10 @@ input,textarea,select{font:inherit;color:inherit;background:none;border:none;out
   pointer-events: none;
   z-index: 10;
 }
-.t-top { display: none; }
-.t-bottom { display: none; }
-.t-left { top: 0; bottom: 0; left: 0; width: 150px; background: linear-gradient(to right, var(--bg-primary), transparent); }
-.t-right { top: 0; bottom: 0; right: 0; width: 150px; background: linear-gradient(to left, var(--bg-primary), transparent); }
+.t-top { top: 0; left: 0; right: 0; height: 180px; background: linear-gradient(to bottom, var(--bg-primary) 30%, transparent); display: block; }
+.t-bottom { bottom: 0; left: 0; right: 0; height: 180px; background: linear-gradient(to top, var(--bg-primary) 30%, transparent); display: block; }
+.t-left { display: none; }
+.t-right { display: none; }
 
 /* Ensure section has enough space for 3D effect and doesn't overlap footer */
 #testimonials {
