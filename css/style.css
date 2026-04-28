@@ -309,14 +309,15 @@ input,textarea,select{font:inherit;color:inherit;background:none;border:none;out
    TESTIMONIALS (3D MARQUEE)
    ============================================ */
 .t-perspective {
-  perspective: 500px;
-  margin: 3rem auto 0;
+  perspective: 1000px; /* Increased perspective for a smoother 3D look */
+  margin: 4rem auto;
   max-width: 800px;
-  height: 440px;
+  height: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden; /* Prevent 3D cards from leaking out */
 }
 .t-container {
   display: flex;
