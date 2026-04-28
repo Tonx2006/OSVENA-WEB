@@ -43,14 +43,16 @@
       "desc": "A brand that people remember. We craft the visual identity and voice that makes you stand out in any market.",
       "f1": "Logo & visual identity",
       "f2": "Color palette & typography",
-      "f3": "Brand guidelines"
+      "f3": "Brand guidelines",
+      "f4": "Professional photography"
     },
     "s5": {
       "title": "Social & Content",
       "desc": "Consistent, strategic content that builds an audience and keeps your brand relevant across every platform.",
       "f1": "Social media management",
       "f2": "Content strategy & calendar",
-      "f3": "Community engagement"
+      "f3": "Community engagement",
+      "f4": "Video editing & motion"
     },
     "s6": {
       "title": "Always On",
