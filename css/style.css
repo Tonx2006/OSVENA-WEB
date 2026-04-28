@@ -421,8 +421,16 @@ input,textarea,select{font:inherit;color:inherit;background:none;border:none;out
   pointer-events: none;
   z-index: 10;
 }
-.t-top { top: 0; left: 0; right: 0; height: 180px; background: linear-gradient(to bottom, var(--bg-primary) 30%, transparent); display: block; }
-.t-bottom { bottom: 0; left: 0; right: 0; height: 180px; background: linear-gradient(to top, var(--bg-primary) 30%, transparent); display: block; }
+.t-top { top: 0; left: 0; right: 0; height: 120px; background: linear-gradient(to bottom, var(--bg-primary), transparent); }
+.t-bottom { bottom: 0; left: 0; right: 0; height: 180px; background: linear-gradient(to top, var(--bg-primary) 40%, transparent); }
+.t-header-shadow { 
+  top: 180px; /* Positioned right under the header */
+  left: 0; 
+  right: 0; 
+  height: 120px; 
+  background: linear-gradient(to bottom, var(--bg-primary) 20%, transparent); 
+  z-index: 15;
+}
 .t-left { display: none; }
 .t-right { display: none; }
 
