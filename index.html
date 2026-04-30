@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
   <!-- Primary Meta Tags -->
   <title>OSVENA — Premium Web Design & AI Automation Agency</title>
   <meta name="title" content="OSVENA — Premium Web Design & AI Automation Agency">
@@ -81,9 +84,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/style.css?v=7">
+  <link rel="stylesheet" href="css/animations.css?v=6">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <!-- THREE.js + GSAP for 3D Hero -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.4/dist/gsap.min.js"></script>
 </head>
 <body>
 
@@ -119,26 +125,71 @@
   <button class="lang-toggle" id="langToggleMobile"><span>SK</span></button>
 </div>
 
-<!-- HERO -->
-<section class="hero" id="hero">
-  <div class="hero-geometric">
-    <div class="hero-geometric-bg"></div>
-    <div class="shape-wrapper shape-1-wrapper"><div class="elegant-shape shape-1"></div></div>
-    <div class="shape-wrapper shape-2-wrapper"><div class="elegant-shape shape-2"></div></div>
-    <div class="shape-wrapper shape-3-wrapper"><div class="elegant-shape shape-3"></div></div>
-    <div class="shape-wrapper shape-4-wrapper"><div class="elegant-shape shape-4"></div></div>
-    <div class="shape-wrapper shape-5-wrapper"><div class="elegant-shape shape-5"></div></div>
-    <div class="hero-geometric-overlay"></div>
-  </div>
-  <div class="container hero-content">
-    <h1 class="hero-title">OSVENA</h1>
-    <p class="hero-slogan" data-i18n="hero.slogan">We Build. You Grow.</p>
-    <div class="hero-cta">
-      <a href="#services" class="btn btn-primary" data-i18n="hero.cta1">Our Services</a>
-      <a href="#contact" class="btn btn-secondary" data-i18n="hero.cta2">Get In Touch</a>
+<!-- HERO — 3D (THREE.js + GSAP) -->
+<section class="h3d-hero" id="hero">
+  <!-- THREE.js canvas injected here by hero3d.js -->
+
+  <div class="h3d-reveal hero-reveal">
+
+    <!-- Left: Brand + Headline + CTA -->
+    <div class="h3d-left">
+      <div class="h3d-brand">
+        <div class="h3d-ping"><div class="h3d-ping-ring"></div></div>
+        <span class="h3d-brand-name">OSVENA</span>
+      </div>
+
+      <div class="h3d-headline-wrap">
+        <h1 class="h3d-headline">
+          WE BUILD.<br>
+          <span class="h3d-headline-outline">YOU GROW.</span>
+        </h1>
+        <p class="h3d-sub" data-i18n="hero.monoSub">Premium digital agency — design, AI &amp; strategic growth.</p>
+      </div>
+
+      <a href="#contact" class="h3d-cta" id="heroCta">
+        <div class="h3d-cta-circle">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 17L17 7M17 7H8M17 7V16"/>
+          </svg>
+        </div>
+        <span class="h3d-cta-text" data-i18n="nav.getStarted">Get Started</span>
+      </a>
     </div>
+
+    <!-- Right: Command Cells -->
+    <div class="h3d-cells">
+
+      <div class="command-cell h3d-cell">
+        <span class="h3d-cell-id">001 // AVAILABILITY</span>
+        <div class="h3d-cell-status">
+          <span class="h3d-cell-val" data-i18n="hero.availVal">Open</span>
+          <div class="h3d-cell-bar"><div class="h3d-cell-bar-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="command-cell h3d-cell">
+        <span class="h3d-cell-id">002 // RESULTS</span>
+        <div class="h3d-cell-data">
+          <div class="h3d-cell-row">
+            <span data-i18n="hero.stat1Lbl">Projects Delivered</span>
+            <span data-i18n="about.stat1">50+</span>
+          </div>
+          <div class="h3d-cell-hr"></div>
+          <div class="h3d-cell-row">
+            <span data-i18n="hero.stat2Lbl">Client Satisfaction</span>
+            <span data-i18n="about.stat4">99%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="command-cell h3d-cell">
+        <span class="h3d-cell-id">003 // EXPERTISE</span>
+        <p class="h3d-cell-text">Turning brands into <em>digital growth engines</em>.</p>
+      </div>
+
+    </div>
+
   </div>
-  <div class="scroll-indicator"><div class="scroll-arrow"></div></div>
 </section>
 
 <!-- SERVICES -->
@@ -413,52 +464,14 @@
   </div>
 </section>
 
-<!-- PROCESS -->
-<section class="section section-highlight" id="process">
-  <div class="container">
-    <div class="section-header" data-animate>
-      <span class="section-tag" data-i18n="process.tag">Our Approach</span>
-      <h2 class="section-title" data-i18n="process.title">How We Work</h2>
-      <p class="section-desc" data-i18n="process.desc">A streamlined process designed to bring your vision to life — efficiently and beautifully.</p>
-    </div>
-    <div class="process-steps" data-animate-stagger>
-      <div class="process-step">
-        <div class="step-number">01</div>
-        <h3 data-i18n="process.s1t">Discovery</h3>
-        <p data-i18n="process.s1d">We learn about your business, goals, and vision to build the perfect strategy.</p>
-      </div>
-      <div class="process-step">
-        <div class="step-number">02</div>
-        <h3 data-i18n="process.s2t">Design</h3>
-        <p data-i18n="process.s2d">We craft stunning visuals and user experiences tailored to your brand.</p>
-      </div>
-      <div class="process-step">
-        <div class="step-number">03</div>
-        <h3 data-i18n="process.s3t">Develop</h3>
-        <p data-i18n="process.s3d">We bring designs to life with clean, performant, and scalable code.</p>
-      </div>
-      <div class="process-step">
-        <div class="step-number">04</div>
-        <h3 data-i18n="process.s4t">Deliver</h3>
-        <p data-i18n="process.s4d">We launch your project and provide ongoing support to ensure success.</p>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- 3D TESTIMONIALS -->
-<section class="section overflow-hidden" id="testimonials">
-  <div class="t-overlay t-top"></div>
-  <div class="t-overlay t-bottom"></div>
-  
+<!-- TESTIMONIALS -->
+<section class="section section-highlight" id="testimonials">
   <div class="container">
     <div class="section-header" data-animate>
       <span class="section-tag" data-i18n="testimonials.tag">Client Success</span>
       <h2 class="section-title" data-i18n="testimonials.title">What People Say</h2>
     </div>
-
-    <div class="t-overlay t-header-shadow"></div>
-
     <div class="t-perspective" data-animate="scale">
       <div class="t-container">
         <div class="t-col"><div class="t-marquee t-marquee-down" id="marquee-1"></div></div>
@@ -466,6 +479,10 @@
         <div class="t-col"><div class="t-marquee t-marquee-down" id="marquee-3"></div></div>
         <div class="t-col"><div class="t-marquee t-marquee-up" id="marquee-4"></div></div>
       </div>
+      <div class="t-overlay t-overlay-top"></div>
+      <div class="t-overlay t-overlay-bottom"></div>
+      <div class="t-overlay t-overlay-left"></div>
+      <div class="t-overlay t-overlay-right"></div>
     </div>
   </div>
 </section>
@@ -495,5 +512,6 @@
 <script src="js/main.js"></script>
 <script src="js/animations.js"></script>
 <script src="js/i18n.js"></script>
+<script src="js/hero3d.js"></script>
 </body>
 </html>

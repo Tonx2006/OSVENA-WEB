@@ -8,9 +8,10 @@
     "getStarted": "Get Started"
   },
   "hero": {
-    "slogan": "We Build. You Grow.",
-    "cta1": "Our Services",
-    "cta2": "Get In Touch"
+    "monoSub": "Premium digital agency — design, AI & strategic growth.",
+    "availVal": "Open",
+    "stat1Lbl": "Projects Delivered",
+    "stat2Lbl": "Client Satisfaction"
   },
   "services": {
     "tag": "What We Do",
@@ -69,56 +70,56 @@
       {
         "name": "Adam Kováč",
         "username": "@adam_k",
-        "body": "OSVENA created a website that doubled our conversion rate in a month!",
+        "body": "OSVENA built us a website that doubled our conversions within a month. Exactly what we needed.",
         "country": "🇸🇰 Slovakia"
       },
       {
         "name": "Lucia Veselá",
         "username": "@luci_v",
-        "body": "The AI Receptionist is amazing. It handles all our bookings perfectly.",
+        "body": "The AI receptionist never misses a call. It saved us dozens of hours every single month.",
         "country": "🇨🇿 Czechia"
+      },
+      {
+        "name": "Peter Horváth",
+        "username": "@peter_h",
+        "body": "OSVENA's PPC campaigns tripled our leads at the same budget. The results speak for themselves.",
+        "country": "🇸🇰 Slovakia"
+      },
+      {
+        "name": "Zuzana Blahová",
+        "username": "@zuzka_b",
+        "body": "The new brand identity from OSVENA elevated the entire perception of our company.",
+        "country": "🇸🇰 Slovakia"
       },
       {
         "name": "Mateo Rossi",
         "username": "@mat",
-        "body": "Animations are buttery smooth! Premium feel all around.",
+        "body": "Beautiful design, lightning-fast load times. Our clients are genuinely impressed.",
         "country": "🇮🇹 Italy"
       },
       {
         "name": "Maya Patel",
         "username": "@maya",
-        "body": "Highly professional team. They delivered exactly what we needed.",
+        "body": "The AI receptionist is available 24/7 and never misses a beat. A must-have for any business.",
         "country": "🇬🇧 UK"
       },
       {
         "name": "Noah Smith",
         "username": "@noah",
-        "body": "Best digital agency experience I have ever had. Seamless process!",
+        "body": "OSVENA delivered ahead of schedule with zero compromises on quality. Highly recommended.",
         "country": "🇺🇸 USA"
-      },
-      {
-        "name": "Lucas Stone",
-        "username": "@luc",
-        "body": "Modern, fast, and reliable. OSVENA is our go-to partner.",
-        "country": "🇫🇷 France"
-      },
-      {
-        "name": "Haruto Sato",
-        "username": "@haru",
-        "body": "Impressive performance on mobile! A must-have for any business.",
-        "country": "🇯🇵 Japan"
       },
       {
         "name": "Emma Lee",
         "username": "@emma",
-        "body": "Our brand identity looks stunning thanks to OSVENA.",
+        "body": "Our follower count tripled after OSVENA took over our social media content strategy.",
         "country": "🇨🇦 Canada"
       },
       {
-        "name": "Carlos Ray",
-        "username": "@carl",
-        "body": "Great for scaling your business. Very transparent and clear quotes.",
-        "country": "🇪🇸 Spain"
+        "name": "Lucas Stone",
+        "username": "@luc",
+        "body": "Always available, always professional. OSVENA feels like part of our own in-house team.",
+        "country": "🇫🇷 France"
       }
     ]
   },

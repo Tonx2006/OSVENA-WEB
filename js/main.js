@@ -159,61 +159,65 @@ function showFormSuccess() {
   if (successEl) successEl.classList.add('show');
 }
 
-/* --- 3D Testimonials Marquee --- */
+/* --- Testimonials 3D Marquee --- */
+const TESTIMONIALS_FALLBACK = [
+  { name: "Adam Kováč",    username: "@adam_k",  body: "OSVENA built us a website that doubled our conversions within a month. Exactly what we needed.",                     country: "🇸🇰 Slovakia" },
+  { name: "Lucia Veselá",  username: "@luci_v",  body: "The AI receptionist never misses a call. It saved us dozens of hours every single month.",                           country: "🇨🇿 Czechia"  },
+  { name: "Peter Horváth", username: "@peter_h", body: "OSVENA's PPC campaigns tripled our leads at the same budget. The results speak for themselves.",                     country: "🇸🇰 Slovakia" },
+  { name: "Zuzana Blahová",username: "@zuzka_b", body: "The new brand identity from OSVENA elevated the entire perception of our company.",                                  country: "🇸🇰 Slovakia" },
+  { name: "Mateo Rossi",   username: "@mat",      body: "Beautiful design, lightning-fast load times. Our clients are genuinely impressed.",                                  country: "🇮🇹 Italy"    },
+  { name: "Maya Patel",    username: "@maya",     body: "The AI receptionist is available 24/7 and never misses a beat. A must-have for any business.",                      country: "🇬🇧 UK"       },
+  { name: "Noah Smith",    username: "@noah",     body: "OSVENA delivered ahead of schedule with zero compromises on quality. Highly recommended.",                           country: "🇺🇸 USA"      },
+  { name: "Emma Lee",      username: "@emma",     body: "Our follower count tripled after OSVENA took over our social media content strategy.",                               country: "🇨🇦 Canada"   },
+  { name: "Lucas Stone",   username: "@luc",      body: "Always available, always professional. OSVENA feels like part of our own in-house team.",                           country: "🇫🇷 France"   }
+];
+
+const TESTIMONIAL_IMAGES = [
+  'https://randomuser.me/api/portraits/men/32.jpg',
+  'https://randomuser.me/api/portraits/women/68.jpg',
+  'https://randomuser.me/api/portraits/men/51.jpg',
+  'https://randomuser.me/api/portraits/women/53.jpg',
+  'https://randomuser.me/api/portraits/men/33.jpg',
+  'https://randomuser.me/api/portraits/men/22.jpg',
+  'https://randomuser.me/api/portraits/men/85.jpg',
+  'https://randomuser.me/api/portraits/women/45.jpg',
+  'https://randomuser.me/api/portraits/men/61.jpg'
+];
+
 function initTestimonials() {
-  window.addEventListener('i18nApplied', () => {
-    renderTestimonials();
-  });
-  
-  // Initial render
   renderTestimonials();
+  window.addEventListener('i18nApplied', renderTestimonials);
 }
 
 function renderTestimonials() {
-  const testimonials = window.i18n?.get('testimonials.items') || [];
-  if (testimonials.length === 0) return;
-
-  // We reuse images from a set of diverse placeholders if they are not provided in JSON
-  const images = [
-    'https://randomuser.me/api/portraits/men/32.jpg',
-    'https://randomuser.me/api/portraits/women/68.jpg',
-    'https://randomuser.me/api/portraits/men/51.jpg',
-    'https://randomuser.me/api/portraits/women/53.jpg',
-    'https://randomuser.me/api/portraits/men/33.jpg',
-    'https://randomuser.me/api/portraits/men/22.jpg',
-    'https://randomuser.me/api/portraits/men/85.jpg',
-    'https://randomuser.me/api/portraits/women/45.jpg',
-    'https://randomuser.me/api/portraits/men/61.jpg'
-  ];
+  const i18nItems = window.i18n?.get('testimonials.items');
+  const testimonials = (Array.isArray(i18nItems) && i18nItems.length > 0)
+    ? i18nItems
+    : TESTIMONIALS_FALLBACK;
 
   function createCard(review, index) {
-    const img = images[index % images.length];
+    const img = TESTIMONIAL_IMAGES[index % TESTIMONIAL_IMAGES.length];
     return `
       <div class="t-card">
         <div class="t-card-header">
-          <div class="t-avatar"><img src="${img}" alt="${review.username}" loading="lazy"></div>
+          <div class="t-avatar"><img src="${img}" alt="${review.name}" loading="lazy"></div>
           <div class="t-meta">
             <figcaption class="t-name">${review.name} <span class="t-country">${review.country}</span></figcaption>
             <p class="t-username">${review.username}</p>
           </div>
         </div>
         <blockquote class="t-body">${review.body}</blockquote>
-      </div>
-    `;
+      </div>`;
   }
 
   const cardsHtml = testimonials.map(createCard).join('');
-  
-  // Create 3 chunks to ensure seamless infinite scrolling
-  const marqueeInnerHtml = `
+  const marqueeHtml = `
     <div class="t-marquee-inner">${cardsHtml}</div>
     <div class="t-marquee-inner" aria-hidden="true">${cardsHtml}</div>
-    <div class="t-marquee-inner" aria-hidden="true">${cardsHtml}</div>
-  `;
+    <div class="t-marquee-inner" aria-hidden="true">${cardsHtml}</div>`;
 
   for (let i = 1; i <= 4; i++) {
     const el = document.getElementById('marquee-' + i);
-    if (el) el.innerHTML = marqueeInnerHtml;
+    if (el) el.innerHTML = marqueeHtml;
   }
 }
-

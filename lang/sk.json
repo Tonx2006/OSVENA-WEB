@@ -8,9 +8,10 @@
     "getStarted": "Začnime"
   },
   "hero": {
-    "slogan": "Tvoríme. Rastieme.",
-    "cta1": "Naše Služby",
-    "cta2": "Kontaktujte Nás"
+    "monoSub": "Digitálna agentúra — dizajn, AI & strategický rast.",
+    "availVal": "Voľné",
+    "stat1Lbl": "Dokončené projekty",
+    "stat2Lbl": "Spokojnosť klientov"
   },
   "services": {
     "tag": "Čo Robíme",
@@ -69,56 +70,56 @@
       {
         "name": "Adam Kováč",
         "username": "@adam_k",
-        "body": "OSVENA vytvorila web, ktorý zdvojnásobil našu mieru konverzie za mesiac!",
+        "body": "OSVENA nám postavila web, ktorý zdvojnásobil konverzie do mesiaca. Presne to, čo sme potrebovali.",
         "country": "🇸🇰 Slovensko"
       },
       {
         "name": "Lucia Veselá",
         "username": "@luci_v",
-        "body": "AI Recepcionistka je úžasná. Dokonale zvláda všetky naše rezervácie.",
+        "body": "AI recepcionistka nikdy nevynechá ani jeden hovor. Ušetrila nám desiatky hodín mesačne.",
         "country": "🇨🇿 Česko"
+      },
+      {
+        "name": "Peter Horváth",
+        "username": "@peter_h",
+        "body": "PPC kampane od OSVENY zvýšili naše leady trojnásobne pri rovnakom rozpočte. Výsledky hovoria samy za seba.",
+        "country": "🇸🇰 Slovensko"
+      },
+      {
+        "name": "Zuzana Blahová",
+        "username": "@zuzka_b",
+        "body": "Nová vizuálna identita od OSVENY pozdvihla celé vnímanie našej značky. Zákazníci si nás teraz pamätajú.",
+        "country": "🇸🇰 Slovensko"
       },
       {
         "name": "Mateo Rossi",
         "username": "@mat",
-        "body": "Animácie sú neskutočne plynulé! Celkovo prémiový pocit.",
+        "body": "Krásny dizajn a neuveriteľne rýchle načítanie. Naši klienti sú nadšení z nového webu.",
         "country": "🇮🇹 Taliansko"
       },
       {
         "name": "Maya Patel",
         "username": "@maya",
-        "body": "Vysoko profesionálny tím. Dodali presne to, čo sme potrebovali.",
+        "body": "AI recepcionistka je k dispozícii 24/7 a nikdy nič nevynechá. Nevyhnutnosť pre každý biznis.",
         "country": "🇬🇧 UK"
       },
       {
         "name": "Noah Smith",
         "username": "@noah",
-        "body": "Najlepšia skúsenosť s digitálnou agentúrou, akú som kedy mal. Bezproblémový proces!",
+        "body": "OSVENA dodala projekt pred termínom bez akýchkoľvek kompromisov v kvalite. Vrelo odporúčam.",
         "country": "🇺🇸 USA"
-      },
-      {
-        "name": "Lucas Stone",
-        "username": "@luc",
-        "body": "Moderné, rýchle a spoľahlivé. OSVENA je náš hlavný partner.",
-        "country": "🇫🇷 Francúzsko"
-      },
-      {
-        "name": "Haruto Sato",
-        "username": "@haru",
-        "body": "Pôsobivý výkon na mobiloch! Povinnosť pre každú firmu.",
-        "country": "🇯🇵 Japonsko"
       },
       {
         "name": "Emma Lee",
         "username": "@emma",
-        "body": "Naša identita značky vyzerá vďaka OSVENA úžasne.",
+        "body": "Počet sledovateľov sa ztrojnásobil odkedy OSVENA prevzala obsah na našich sociálnych sieťach.",
         "country": "🇨🇦 Kanada"
       },
       {
-        "name": "Carlos Ray",
-        "username": "@carl",
-        "body": "Skvelé pre škálovanie biznisu. Veľmi transparentné a jasné ponuky.",
-        "country": "🇪🇸 Španielsko"
+        "name": "Lucas Stone",
+        "username": "@luc",
+        "body": "Vždy dostupní, vždy profesionálni. OSVENA sa cíti ako súčasť nášho vlastného tímu.",
+        "country": "🇫🇷 Francúzsko"
       }
     ]
   },
