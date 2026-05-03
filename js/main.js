@@ -80,6 +80,23 @@ function closeMobileMenu() {
   }
 }
 
+// Sem vlož svoju Google Apps Script Web App URL po nasadení:
+var SHEETS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwWpK9GNNWjtoT9CSLY2wamnyoFls4E8uyAdSfm2t97W0qqouazQxhIGxWfKoC8Nn8/exec';
+
+/* --- Google Sheets logging (fire-and-forget) --- */
+async function logToGoogleSheets(formData) {
+  if (!SHEETS_ENDPOINT || SHEETS_ENDPOINT.includes('YOUR_GOOGLE')) return;
+  try {
+    const params = new URLSearchParams();
+    for (const [key, value] of formData.entries()) {
+      if (!key.startsWith('_')) params.append(key, value);
+    }
+    await fetch(SHEETS_ENDPOINT, { method: 'POST', body: params, mode: 'no-cors' });
+  } catch (e) {
+    console.warn('Sheets log failed:', e);
+  }
+}
+
 /* --- Contact Form --- */
 function initContactForm() {
   const form = document.getElementById('contactFormInner');
@@ -87,15 +104,19 @@ function initContactForm() {
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    
+
     if (!validateForm(form)) return;
-    
+
     const btn = form.querySelector('.form-submit');
     if (btn) btn.classList.add('loading');
     btn.disabled = true;
 
     try {
       const formData = new FormData(form);
+
+      // Zaznamenaj do Google Sheets (nezávisí od emailu)
+      logToGoogleSheets(formData);
+
       const response = await fetch(form.action, {
         method: 'POST',
         body: formData,
